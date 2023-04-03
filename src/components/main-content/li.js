@@ -25,7 +25,6 @@ class LiComponent extends React.Component {
                          data-id={item.id}/>
                     <img className={`card-img__success ${style ? 'd-block' : ''}`}
                          src={require('../../images/success.png')}/>
-                    {item.symbol_title}
                     <img className={`card-img__error`}
                          src={require('../../images/error-img.png')}/>
                 </div>

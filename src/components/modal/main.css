@@ -101,3 +101,41 @@
 .d-none{
     display: none;
 }
+
+@media  screen and (max-width: 1024px) {
+    .title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .card-title{
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-wrapper{
+        flex-direction: column;
+    }
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+    main{
+        padding-top: 90px;
+    }
+    .modal-card{
+        top: 80px;
+    }
+
+}
+@media screen and (max-width: 439px) {
+    .list{
+        justify-content: center;
+    }
+    .modal-btn{
+        max-width: 320px;
+        font-size: 11px;
+    }
+
+
+}
