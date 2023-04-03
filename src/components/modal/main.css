@@ -1,0 +1,103 @@
+.modal-count {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.modal-error {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.888);
+}
+
+.modal-card {
+    max-width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.826);
+}
+
+.show-modal {
+    display: block;
+}
+
+.modal-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.modal-list > li {
+    margin: 10px auto;
+}
+
+.modal-list > li > .card {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-title {
+    color: #fff;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-weight: 900;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-btn {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    left: 0;
+    bottom: 15px;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    color: #fff;
+    background-color: green;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+
+.modal-close:hover {
+    opacity: 0.6;
+}
+
+.d-none{
+    display: none;
+}
